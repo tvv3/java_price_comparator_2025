@@ -7,5 +7,5 @@ The table products will be created when you first run the java app so you don't 
  The csv data must be separated by coma not semicolon
  In order to test the upload of a new file you need postman and a post call of http://localhost:8085/api/products/upload-csv and in body we select the form-data tab and in file field of File type we get a button to load the .csv file from our computer 
 
- If the file test_21-05-2025.csv is loaded the store name will be test and loading date will be 21-05-2025. If there where any other data for store test loaded on previous days those will be deleted and the only remaining data 
-for store named test will be the data loaded last on 21-05-2025. If on 22-05-2025 we load the latest full data for another store named test2 those will be added to the data loaded on 21-05-2025 for test store. 
+ If the file test_2025-05-21.csv is loaded the store name will be test and loading date will be 21-05-2025. 
+If there where any other data for store test loaded on previous days those will be deleted and the only remaining data for store named test will be the data loaded last on 21-05-2025. If on 22-05-2025 we load the latest full data for another store named test2 those will be added to the data loaded on 21-05-2025 for test store. 
